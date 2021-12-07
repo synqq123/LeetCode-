@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>121_买卖股票的最佳时机</title>
-</head>
-
-<body>
-    <script>
-        function maxProfit(prices) {
+ function maxProfit(prices) {
             let len = prices.length
             if (len === 1) return 0;
             let prev = 0;
@@ -22,8 +10,5 @@
                 prev = curr;
             }
             return curr;
-        }
-    </script>
-</body>
-
-</html>
+ }
+    
